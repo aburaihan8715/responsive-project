@@ -1,0 +1,124 @@
+
+/* ==================================
+common css
+===================================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+/* ==================================
+css for main menu
+===================================== */
+
+.navbar{
+
+}
+.navbar .logo{
+    background-color: aquamarine;
+}
+.navbar .logo img{
+    width: 200px;
+}
+
+.navbar ul{
+    background-color: rgb(43, 63, 24);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.navbar ul li{
+
+}
+.navbar ul li a{
+    padding: 18px 20px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(39, 94, 156);
+    border-radius: 5px;
+}
+
+/* ==================================
+css for content
+===================================== */
+.content_child{
+    background-color: #bbdee2;
+    box-shadow: 5px 5px 8px black;
+    padding: 10px;
+}
+
+.content a{
+    width: 100px;
+    height: 30px;
+    background-color: blueviolet;
+    display: inline-block;
+    margin-top: 8px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.content a:hover{
+    background: rgb(45, 33, 46);
+}
+
+/* ==================================
+css for footer
+===================================== */
+
+.footer_content{
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+
+
+
+/* ==================================
+media queries
+===================================== */
+
+@media (min-width: 576px){
+    .navbar ul{
+        justify-content: center;
+    }
+
+    .navbar .logo{
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px){
+    .navbar ul{
+        justify-content: center;
+    }
+    .navbar .logo{
+        text-align: center;
+    }
+}
